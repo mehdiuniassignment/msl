@@ -1,0 +1,85 @@
+// this is a comment
+
+// data types
+
+// null
+
+let n = null;
+
+// boolean
+
+let a = true;
+let b = false;
+
+// strings
+
+let c = "This is a string";
+
+// numbers
+
+let ten = 10;
+let pi = 3.14;
+
+// array
+
+let arr1 = [23, 54, 7.4, 778];
+let arr2 = ["hello", "world", "!"];
+let arr3 = [true, false, false, false, true];
+
+// object
+
+let person = { name: "john", age: 34 };
+
+// functions
+
+let square = (x) {
+    return x * x;
+};
+
+// operators
+
+print !true;
+print -34;
+print (23 + 45) * 34 / 34 % 4;
+print 23 == 34;
+print 23 != 445;
+print 34 > 34;
+print 34 < 34;
+print 33 >= 34;
+print 34 <= 6;
+print true && false;
+print true || false;
+
+// control flow
+
+// if statements
+
+if (34 > 3) {
+    print "true";
+} else if (34 < 3) {
+    print "false";
+} else {
+    print "unkown";
+}
+
+// for statements
+
+for (let i = 0; i < 34; i = i + 1) {
+    print i;
+    continue;
+}
+
+// while loop
+
+while (true) {
+    print "bing";
+    break;
+}
+
+// do while loop
+
+do {
+    print hi;
+} while(false);
+
+// todo switch and ternary operator

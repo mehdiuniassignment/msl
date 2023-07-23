@@ -1,0 +1,5 @@
+print "Enter your name:";
+let name = Read();
+print "Enter your age:";
+let age = Read();
+print "Hi, I am " + name + ", I am " + age + " years old.";
